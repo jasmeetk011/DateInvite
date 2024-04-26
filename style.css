@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #bfbfc4; /* A softer shade of white for a gentle feel */
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: #8c8181;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border: 1px solid #dddddd; /* subtle border */
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* subtle shadow for depth */
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background: linear-gradient(145deg, #ff7e5f, #feb47b); /* gradient background */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background: linear-gradient(145deg, #feb47b, #f56f4d); /* reversed gradient on hover */
+    transform: scale(1.05); /* slight increase in size */
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin: 12px 0 5px;
+    font-size: 16px;
+    color: #1c1b1b; /* darker label color for better readability */
+}
+
+select, textarea {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.06); /* subtle inset shadow for depth */
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+p#message {
+    color: #e95b37; /* vibrant color for important messages */
+    font-size: 14px;
+    margin: 5px 0 15px;
+}

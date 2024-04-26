@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Explain Your Issue</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h2>Explain me why you can't come?</h2>
+    <form id="issueForm">
+        <label for="reason">Choose a reason:</label>
+        <select id="reason" name="reason" onchange="updateMessage()">
+            <option value="">--Please choose an option--</option>
+            <option value="busy">Sorry, I am busy</option>
+            <option value="cannot">I want to but I can't come</option>
+            <option value="else">I have something else to do</option>
+            <option value="dontWant">I just don't want to</option>
+            <option value="other">Something else</option>
+        </select>
+        <p id="message"></p>
+        How are you feeling?
+        <label><input type="checkbox" name="apology" value="sorry"> I am sorry</label>
+        <label><input type="checkbox" name="neutral" value="neutral"> I Don't Know</label>
+        <label for="userMessage">Want to give any more explanation?</label><br>
+        <textarea id="userMessage" name="userMessage" rows="4" cols="30"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+<script src="issueScript.js"></script>
+</body>
+</html>
